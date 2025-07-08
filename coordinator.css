@@ -1,0 +1,56 @@
+/* General styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Dashboard styles */
+.dashboard {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard h1 {
+    color: #3498db;
+    margin-bottom: 1rem;
+}
+
+.dashboard p {
+    color: #7f8c8d;
+    margin-bottom: 0.5rem;
+}
+
+/* Button styles */
+.logout-btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #e74c3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Event badge for coordinators */
+.event-badge {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    background-color: #3498db;
+    color: white;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+}
